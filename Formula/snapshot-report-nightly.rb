@@ -1,15 +1,15 @@
 class SnapshotReportNightly < Formula
   desc "Nightly snapshot report generator for Swift SnapshotTesting"
   homepage "https://github.com/oscarcv/SnapshotReportKit"
-  version "2026.02.20.5"
+  version "2026.02.20.6"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/oscarcv/SnapshotReportKit/releases/download/nightly/snapshot-report-nightly-macos-arm64.tar.gz"
-      sha256 "11703eb655907b0dd19088aa0560fad4006632362a595e53917eab4edb77b634"
+      sha256 "fd493dfc42e1609075f9aedfe5f612e23f3e1ad76192d13c1ac36c8dceeef170"
     else
       url "https://github.com/oscarcv/SnapshotReportKit/releases/download/nightly/snapshot-report-nightly-macos-x86_64.tar.gz"
-      sha256 "4edb14c18c9c5eb1c21bd0128c3575203a41329a216bbc6c4965ece3fa47fbf5"
+      sha256 "f9dbaac357f3a10287fd682712657e24f84e8bd88eecc52bbdc928abbf13a18e"
     end
   end
 
